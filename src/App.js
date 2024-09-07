@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Shopping from './ShoppingListApplication/Shopping';
+// import OnlineOfflineStatus from './UseEffectMachinecoding/OnlineOfflineStatus';
+// import Datafetch from './UseEffectMachinecoding/Datafetch';
+// import WindowResize from './UseEffectMachinecoding/WindowResize';
 
-function App() {
+// import DebouncedInputSerach from './UseEffectMachinecoding/DebouncedInputSerach'
+
+// import Question1 from './useMemoQuestions/Question1';
+
+// import Question2 from './useMemoQuestions/Question2';
+
+
+const App = () => {
+ 
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Datafetch/> */}
+      {/* <WindowResize/> */}
+
+      {/* <DebouncedInputSerach/> */}
+
+      {/* <OnlineOfflineStatus/> */}
+      {/* <Question1/> */}
+      {/* <Question2/> */}
+      <Shopping/>
     </div>
   );
-}
+};
 
 export default App;
